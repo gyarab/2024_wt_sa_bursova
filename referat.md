@@ -1,5 +1,4 @@
-# Adéla Bursová
-## Manuel Blum
+#Manuel Blum
 ![Blum_manuel_lenore_avrim](https://github.com/user-attachments/assets/3553e660-7b7a-47b8-8db5-faae4be208cf)
 
 - Manuel Blum je venezuelský informatik židovského původu. 

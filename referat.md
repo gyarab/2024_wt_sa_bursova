@@ -7,4 +7,4 @@
 
 
 Pro vice informaci kliknete zde 
-( https://en.wikipedia.org/wiki/Manuel_Blum )
+( https://en.wikipedia.org/wiki/Manuel_Blum ) 

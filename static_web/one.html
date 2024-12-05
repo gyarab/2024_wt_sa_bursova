@@ -1,22 +1,84 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>One</title>
+  <meta charset="UTF-8"><!--poporovaní ěščřžýáí-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ročníkový projekt</title>
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
-    <h1>Nadpis stránky One</h1>
-    <h2>Podnadpis stránky</h2>
-    <p>Lisky jsou zviratka.</p>
-    <p>Ziji v lese.</p>
-    
-    <a href="two.html">Přejít na stránku Two</a>
-    <br>
-    <a href="https://www.wikipedia.org" target="_blank">Externí odkaz na Wikipedii</a>
+  <!-- horni lista -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container"> <!-- container zarovna sirko na runych zarizenich -->
+      <a class="navbar-brand" href="#">
+        <img src="logo.png" width="50" alt="Logo">
+        Veš dětská
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span><!-- hamburgrove menu -->
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav"><!-- mobil burger pc neburger -->
+        <ul class="navbar-nav ms-auto"><!-- zarovna navigaci na pravou stranu -->
+          <li class="nav-item">
+            <a class="nav-link active" href="./one.html">One</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./two.html">Two</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <h2>Obrázky</h2>
-    <img src="image02.jpg" width="300">
-    <img src="image.png" width="300">
+  <!-- Obsah s omezenou šířkou -->
+  <div class="container my-5"><!--my-5 delaa prostor nahore i dole  -->
+    <h1 class="text-center">Vítejte na naší stránce!</h1>
+    <p class="text-center">Toto je stránka ročníkového projektu o vši dětské.</p><!-- text center text zarovnany na stred -->
+
+    <!-- Grid layout s kartami -->
+    <div class="row"><!-- sloupce -->
+      <!-- Karta 1 -->
+      <div class="col-lg-4 col-md-6 ">
+        <div class="card"><!-- trida pro kartu -->
+          <img src="ves.jpg" class="card-img-top" width="300" height="400"><!--card-img-top obrazek bude nahore v karte  -->
+          <div class="card-body"><!-- tlacitko a text v karte -->
+            <h5 class="card-title">Základní informace o vších.</h5>
+            <p class="card-text">veš dětská</p>
+            <a href="#" class="btn btn-primary">Více informací</a><!--  trida pro tlacitko-->
+          </div>
+        </div>
+      </div>
+      <!-- Karta 2 -->
+      <div class="col-lg-4 col-md-6 ">
+        <div class="card">
+          <img src="vyvoj.png" class="card-img-top" width="300" height="400">
+          <div class="card-body">
+            <h5 class="card-title">Jak vypadá vývoj vši?</h5>
+            <p class="card-text">Vývoj vši.</p>
+            <a href="#" class="btn btn-primary">Více informací</a>
+          </div>
+        </div>
+      </div>
+      <!-- Karta 3 -->
+      <div class="col-lg-4 col-md-6 ">
+        <div class="card">
+          <img src="ledzba.webp" class="card-img-top" width="300" height="400">
+          <div class="card-body">
+            <h5 class="card-title">Jak se vší zbavit.</h5>
+            <p class="card-text">Existují různé způsoby.</p>
+            <a href="#" class="btn btn-primary">Více informací</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
